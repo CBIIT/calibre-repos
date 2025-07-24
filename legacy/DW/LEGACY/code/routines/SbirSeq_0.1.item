@@ -1,0 +1,139 @@
+//template routine Java
+package routines;
+
+import java.sql.SQLException;
+
+/*
+ * user specification:
+ * the function's comment should contain keys as follows:
+ * 1. write about the function's comment.but it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of:
+ *                                               String, 
+ *                                               char | Character, 
+ *                                               long | Long, 
+ *                                               int | Integer,
+ *                                               boolean | Boolean,
+ *                                               byte | Byte,
+ *                                               Date,
+ *                                               double | Double,
+ *                                               float | Float,
+ *                                               Object,
+ *                                               short | Short
+ * 
+ * 3. {Category} define a category for the Function.  it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ *      <type> 's value should be one of:
+ *                  string,
+ *                  int,
+ *                  list,
+ *                  double,
+ *                  object,
+ *                  boolean,
+ *                  long,
+ *                  char,
+ *                  date.
+ *      <name>'s value is the Function's parameter name.
+ *  the {param} is optional. so if you the Function without the parameters. the {param} don't added.
+ *  you can have many parameters for the Function.     
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class SbirSeq {
+	
+	private static Long curGrantInfoId = Long.valueOf(-1);
+	private static Long curInvestigatorId = Long.valueOf(-1);
+	private static Long curProductId = Long.valueOf(-1);
+    
+    /**
+     * getCurGrantInfoId: Return current grantInfo id.
+     * 
+     * 
+     * {talendTypes} Long
+     * 
+     * {Category} User Defined
+     * 
+     * {example} getCurGrantInfoId()
+     */
+    public static Long getCurGrantInfoId() {
+        return(curGrantInfoId);
+    }
+
+    /**
+     * getCurInvestigatorId: Return current investigator id.
+     * 
+     * 
+     * {talendTypes} Long
+     * 
+     * {Category} User Defined
+     * 
+     * {example} getCurInvestigatorId()
+     */
+    public static Long getCurInvestigatorId() {
+        return(curInvestigatorId);
+    }
+
+    /**
+     * getCurProductId: Return current product id.
+     * 
+     * 
+     * {talendTypes} Long
+     * 
+     * {Category} User Defined
+     * 
+     * {example} getCurProductId()
+     */
+    public static Long getCurProductId() {
+        return(curProductId);
+    }
+    
+    /**
+     * nextSeq: return next sequence from database object_seq
+     * 
+     * 
+     * {talendTypes} long | Long
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} nextSeq() # 99999.
+     */
+    public static Long nextSeq(String aChkMode) {
+    	java.sql.Connection conn = null;
+    	Long retVal;
+    	java.sql.ResultSet rs = null;
+    	try {
+	    	java.lang.Class.forName("oracle.jdbc.driver.OracleDriver");
+	    	String url = "jdbc:oracle:thin:@" + CmnDbParam.getHost() + ":" + CmnDbParam.getPort() + ":" + CmnDbParam.getSid();
+	    	String dbUser = CmnDbParam.getUser();
+	    	String dbPwd= CmnDbParam.getPassword();
+	    	conn = java.sql.DriverManager.getConnection(url, dbUser, dbPwd);
+	    	java.sql.Statement stmt = conn.createStatement();
+	    	rs = stmt.executeQuery("select object_seq.nextval from dual");
+	    	rs.next();
+	    	retVal = Long.valueOf(rs.getLong(1));
+	    	rs.close();
+	    	if (aChkMode.equalsIgnoreCase("grantinfo")) {
+	    		curGrantInfoId = retVal;
+	    	}
+	    	else if (aChkMode.equalsIgnoreCase("investigator")) {
+	    		curInvestigatorId = retVal;
+	    	}
+	    	else if (aChkMode.equalsIgnoreCase("product")) {
+	    		curProductId = retVal;
+	    	}
+	    	return(retVal);
+    	}
+    	catch (SQLException se) {
+    		se.printStackTrace();
+    	}
+    	catch (ClassNotFoundException ce) {
+    		ce.printStackTrace();
+    	}
+
+    	return(Long.valueOf(-1));
+    }
+
+}

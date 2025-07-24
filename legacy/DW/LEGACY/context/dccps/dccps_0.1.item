@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_E6FtUAmbEeytKP1Z0uOWnQ">
+    <contextParameter comment="" name="dccps_Sid" prompt="dccps_Sid?" promptNeeded="false" type="id_String" value="nciportp" xmi:id="_E6FtUQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Schema" prompt="dccps_Schema?" promptNeeded="false" type="id_String" value="DCCPSUSER" xmi:id="_E6FtUgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Server" prompt="dccps_Server?" promptNeeded="false" type="id_String" value="nciportp.cit.nih.gov" xmi:id="_E6FtUwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Password" prompt="dccps_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:LhklWD6ChFuNm0vnHkpqjfSwzrI+01hHhj/Jqsk6D+l/QPfw1C+wYRE=" xmi:id="_E6FtVAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Login" prompt="dccps_Login?" promptNeeded="false" type="id_String" value="dccpsuser" xmi:id="_E6FtVQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_AdditionalParams" prompt="dccps_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_E6FtVgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Port" prompt="dccps_Port?" promptNeeded="false" type="id_String" value="6605" xmi:id="_E6FtVwmbEeytKP1Z0uOWnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Staging" xmi:id="_E6FtWAmbEeytKP1Z0uOWnQ">
+    <contextParameter comment="" name="dccps_Sid" prompt="dccps_Sid?" promptNeeded="false" type="id_String" value="nciportt" xmi:id="_E6FtWQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Schema" prompt="dccps_Schema?" promptNeeded="false" type="id_String" value="DCCPSUSER" xmi:id="_E6FtWgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Server" prompt="dccps_Server?" promptNeeded="false" type="id_String" value="nciportt.cit.nih.gov" xmi:id="_E6FtWwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Password" prompt="dccps_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Hvng/9uL8fIg/E10uizZKgXQDR4Hu7Ybl0jlLB12nawErZf/Uw==" xmi:id="_E6FtXAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Login" prompt="dccps_Login?" promptNeeded="false" type="id_String" value="dccpsuser" xmi:id="_E6FtXQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_AdditionalParams" prompt="dccps_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_E6FtXgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="dccps_Port" prompt="dccps_Port?" promptNeeded="false" type="id_String" value="6602" xmi:id="_E6FtXwmbEeytKP1Z0uOWnQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_55869266-72b3-40b5-b4b9-afd59764ded5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>A3mII6yJAZyu36HhcIH8cN/8Gzc+o868VtqNPX18H6aK6CWgZNLEQPr/Taf1s2RLDa9IXJfEpLvg&#13;
+gEFz1JHsTw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_717494d1-6a69-4404-815d-3fc66a55404f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>erMjEGnc2p02PnmwjrsfUqm41/A8PFAeji18NT+lpVTXs7w9mGsLAQzxJPPhf82FPh83pq6ytYlO&#13;
+GoQ+bVIvjQ==</DigestValue></Reference></SignedInfo><SignatureValue>R/KLSFQmFcZb6AxSIDx+9geb6/afaEwQ2ywMde+dXp/FERd1UenD38cKDEmq+F/MPvAnEul8ecy4&#13;
+zQ2uceZT8e/OcATs5a3RvcOsl2/lrB5hj9EsUUHMnC/Eq3on6ujSn6qQpFYzd2PbXlzObhNUSOO8&#13;
+99fA1tV+j/zwDxoYS8j4b2c0Sgwc+SFwZrWyfkf6Yjou6GOkMAOI6uRxYAoFXi8kK7nHHHigjNzY&#13;
+cLK9ztq4VOmjHQ09zZDm1YFTcyzj+NEzORxp/VsvR6pZZt15A4w7FZsN8PBN18by24KxE8Q02VZR&#13;
+hWDcrUL/v9KjBsfFtnccxV0bFkdeLKZTo9BjLg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_717494d1-6a69-4404-815d-3fc66a55404f" Target="#_55869266-72b3-40b5-b4b9-afd59764ded5"><Timestamp>2021-08-30 14:05:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

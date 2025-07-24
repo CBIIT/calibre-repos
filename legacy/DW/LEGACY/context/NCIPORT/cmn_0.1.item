@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_E2dxkAmbEeytKP1Z0uOWnQ">
+    <contextParameter comment="" name="CMN_Sid" prompt="CMN_Sid?" promptNeeded="false" type="id_String" value="nciportp" xmi:id="_E2dxkQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Schema" prompt="CMN_Schema?" promptNeeded="false" type="id_String" value="CMNUSER" xmi:id="_E2dxkgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Server" prompt="CMN_Server?" promptNeeded="false" type="id_String" value="nciportp.cit.nih.gov" xmi:id="_E2dxkwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Password" prompt="CMN_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:QwBc1LWAKpJcxeRsVvnucTM5OR2Ylu5cld3QzuS4zZOUtzKH77Rneuc=" xmi:id="_E2dxlAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Login" prompt="CMN_Login?" promptNeeded="false" type="id_String" value="cmnuser" xmi:id="_E2dxlQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Port" prompt="CMN_Port?" promptNeeded="false" type="id_String" value="6605" xmi:id="_E2dxlgmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Prev_Year" prompt="CMN_Prev_Year?" promptNeeded="true" type="id_String" value="2013" xmi:id="_E2dxlwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Cur_Year" prompt="CMN_Cur_Year?" promptNeeded="true" type="id_String" value="2014" xmi:id="_E2dxmAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_AdditionalParams" prompt="CMN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_E2dxmQmbEeytKP1Z0uOWnQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Staging" xmi:id="_E2dxmgmbEeytKP1Z0uOWnQ">
+    <contextParameter comment="" name="CMN_Sid" prompt="CMN_Sid?" promptNeeded="false" type="id_String" value="nciportt" xmi:id="_E2dxmwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Schema" prompt="CMN_Schema?" promptNeeded="false" type="id_String" value="CMNUSER" xmi:id="_E2dxnAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Server" prompt="CMN_Server?" promptNeeded="false" type="id_String" value="nciportt.cit.nih.gov" xmi:id="_E2dxnQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Password" prompt="CMN_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:C/JLOxcVj9pj0DKDnE9oEnNegxgDThrdhkX+XKnj+1h8/eU=" xmi:id="_E2dxngmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Login" prompt="CMN_Login?" promptNeeded="false" type="id_String" value="cmnuser" xmi:id="_E2dxnwmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Port" prompt="CMN_Port?" promptNeeded="false" type="id_String" value="6602" xmi:id="_E2dxoAmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Prev_Year" prompt="CMN_Prev_Year?" promptNeeded="true" type="id_String" value="2013" xmi:id="_E2dxoQmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_Cur_Year" prompt="CMN_Cur_Year?" promptNeeded="true" type="id_String" value="2014" xmi:id="_E2dxogmbEeytKP1Z0uOWnQ"/>
+    <contextParameter comment="" name="CMN_AdditionalParams" prompt="CMN_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_E2dxowmbEeytKP1Z0uOWnQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_324a556b-a726-4ce2-9239-a398665ce83c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kNh/BB2Z/urWTfd7PStFaZdaFJm6qmwcDpEQdkknqVlXhaBiEd7CVT+7/ZINm5vnEXWdXHCvqtiO&#13;
+3X6nUH3hCg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9b81da55-6da3-48f1-8cd0-d45da8c0f4d5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ol7uZz+TNt/uzTZln9u7yYr+3feNukdLZPCzCaWyzCxlD7tLMB4XOkg3hLlQG9y1QCPCAFK3tioi&#13;
+ZTxRL0inBA==</DigestValue></Reference></SignedInfo><SignatureValue>DcyJ3krmetohyfmREGJgJMdtJ/fKCaiQ9yg8tQDLRoWJmTtWLPphGvmlPStMycT7w14E8ELcThEV&#13;
+XBIj8oJPOTT12bA8UiqW1W/g5omS7xJ8lx8b45PFEw8WIapUUgBMcUHTPyGqQA9LIKYRP34m3/ce&#13;
+AMh3rje9tSVJPTAV2O/eM8c9LtMURCtsLHNnP2jJzcKAOxVTmnrYHpjeQtr2bs1YHCTL7hfE0HUt&#13;
+uQVlFr9qX4Ks5YWGkbDOS8ULuj+1Jpw2Q4Ed9Hsp2G+sqTsjzrWahKFbz40cig1eHMiP6vIVuE7v&#13;
+xglm7+NIFQ5QZZnm6F5rBchvAm1bR68tZoknPQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9b81da55-6da3-48f1-8cd0-d45da8c0f4d5" Target="#_324a556b-a726-4ce2-9239-a398665ce83c"><Timestamp>2021-08-30 14:05:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

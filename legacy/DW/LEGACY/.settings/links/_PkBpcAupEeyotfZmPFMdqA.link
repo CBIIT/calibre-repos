@@ -1,0 +1,29 @@
+{
+  "itemId" : "_PkBpcAupEeyotfZmPFMdqA",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_yAxKcAupEeyotfZmPFMdqA",
+    "parameterList" : [ {
+      "id" : "_bbQ3MYvqEe-do5-PSQfwhQ",
+      "name" : "spuser_Schema"
+    }, {
+      "id" : "_bbQ3MovqEe-do5-PSQfwhQ",
+      "name" : "spuser_Port"
+    }, {
+      "id" : "_bbQ3M4vqEe-do5-PSQfwhQ",
+      "name" : "spuser_Database"
+    }, {
+      "id" : "_bbQ3NIvqEe-do5-PSQfwhQ",
+      "name" : "spuser_Login"
+    }, {
+      "id" : "_bbQ3NYvqEe-do5-PSQfwhQ",
+      "name" : "spuser_AdditionalParams"
+    }, {
+      "id" : "_bbQ3NovqEe-do5-PSQfwhQ",
+      "name" : "spuser_Password"
+    }, {
+      "id" : "_bbQ3N4vqEe-do5-PSQfwhQ",
+      "name" : "spuser_Server"
+    } ]
+  } ]
+}

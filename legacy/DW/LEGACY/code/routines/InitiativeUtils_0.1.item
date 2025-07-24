@@ -1,0 +1,27 @@
+package routines;
+
+public class InitiativeUtils {
+	private static final String INITIATIVE_TYPE_RFA = "RFA";
+	private static final String INITIATIVE_TYPE_PA = "PA";
+	private static final String INITIATIVE_TYPE_RFA_PA = "RFA/PA";
+
+	/**
+	 * This method returns an initiative type based on a given type code
+	 * @param type (String)
+	 * @return initiativeType (String)
+	 */
+	public static String getInitiativeType(String type) {		
+		String retVal = "";
+		
+		if (type.equals("R")) {
+			retVal = InitiativeUtils.INITIATIVE_TYPE_RFA;
+		} else if (type.equals("P")) {
+			retVal = InitiativeUtils.INITIATIVE_TYPE_PA;
+		} else {
+			retVal = InitiativeUtils.INITIATIVE_TYPE_RFA_PA;
+		}
+		
+		return retVal;
+	}
+	
+}

@@ -1,0 +1,29 @@
+{
+  "itemId" : "_kC9EMHyLEeCL1tzrfoLxmA",
+  "contextList" : [ {
+    "contextName" : "Staging",
+    "repoId" : "_Y7Rc8Hy-EeCL1tzrfoLxmA",
+    "parameterList" : [ {
+      "id" : "_E6FtWQmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Sid"
+    }, {
+      "id" : "_E6FtWgmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Schema"
+    }, {
+      "id" : "_E6FtWwmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Server"
+    }, {
+      "id" : "_E6FtXAmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Password"
+    }, {
+      "id" : "_E6FtXQmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Login"
+    }, {
+      "id" : "_E6FtXgmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_AdditionalParams"
+    }, {
+      "id" : "_E6FtXwmbEeytKP1Z0uOWnQ",
+      "name" : "dccps_Port"
+    } ]
+  } ]
+}

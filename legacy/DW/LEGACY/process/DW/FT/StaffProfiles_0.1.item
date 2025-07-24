@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="CMN_AdditionalParams" prompt="CMN_AdditionalParams?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value=""/>
+    <contextParameter comment="" name="CMN_Login" prompt="CMN_Login?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="cmnuser"/>
+    <contextParameter comment="" name="CMN_Schema" prompt="CMN_Schema?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="CMNUSER"/>
+    <contextParameter comment="" name="CMN_Port" prompt="CMN_Port?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="6602"/>
+    <contextParameter comment="" name="CMN_Sid" prompt="CMN_Sid?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="nciportt"/>
+    <contextParameter comment="" name="CMN_Server" prompt="CMN_Server?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="nciportt.cit.nih.gov"/>
+    <contextParameter comment="" name="CMN_Password" prompt="CMN_Password?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_Password" value="enc:system.encryption.key.v1:g+bIZkTMUSsKlPpz9d5vXsLPXY8Axh/2JNRxdGV7+J4Xecw="/>
+    <contextParameter comment="" name="SP_Port" prompt="SP_Port?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="6602"/>
+    <contextParameter comment="" name="SP_Login" prompt="SP_Login?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="spuser"/>
+    <contextParameter comment="" name="SP_AdditionalParams" prompt="SP_AdditionalParams?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value=""/>
+    <contextParameter comment="" name="SP_Sid" prompt="SP_Sid?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="nciportt"/>
+    <contextParameter comment="" name="SP_Server" prompt="SP_Server?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="nciportt.cit.nih.gov"/>
+    <contextParameter comment="" name="SP_Schema" prompt="SP_Schema?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="SPUSER"/>
+    <contextParameter comment="" name="SP_Password" prompt="SP_Password?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_Password" value="enc:system.encryption.key.v1:Re7R0yRF0bu/DsL1lQW1WUHvsyYrqKt0ESxmZykmvCkXXw=="/>
+    <contextParameter comment="" name="dccps_Password" prompt="dccps_Password?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_Password" value="enc:system.encryption.key.v1:iYQzi7dEbv0MtDZ+Sh1b08IxohSK2joBIAusChIWDT0H2HJDIQ=="/>
+    <contextParameter comment="" name="dccps_Port" prompt="dccps_Port?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="1705"/>
+    <contextParameter comment="" name="dccps_Schema" prompt="dccps_Schema?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="DCCPSUSER"/>
+    <contextParameter comment="" name="dccps_AdditionalParams" prompt="dccps_AdditionalParams?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value=""/>
+    <contextParameter comment="" name="dccps_Sid" prompt="dccps_Sid?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="dccpstst"/>
+    <contextParameter comment="" name="dccps_Login" prompt="dccps_Login?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="dccpsuser"/>
+    <contextParameter comment="" name="dccps_Server" prompt="dccps_Server?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="whitney.cit.nih.gov"/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="CMN_AdditionalParams" prompt="CMN_AdditionalParams?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value=""/>
+    <contextParameter comment="" name="CMN_Login" prompt="CMN_Login?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="cmnuser"/>
+    <contextParameter comment="" name="CMN_Schema" prompt="CMN_Schema?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="CMNUSER"/>
+    <contextParameter comment="" name="CMN_Port" prompt="CMN_Port?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="6605"/>
+    <contextParameter comment="" name="CMN_Sid" prompt="CMN_Sid?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="nciportp"/>
+    <contextParameter comment="" name="CMN_Server" prompt="CMN_Server?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_String" value="nciportp.cit.nih.gov"/>
+    <contextParameter comment="" name="CMN_Password" prompt="CMN_Password?" promptNeeded="false" repositoryContextId="_tiAF0Hy9EeCL1tzrfoLxmA" type="id_Password" value="enc:system.encryption.key.v1:us+7KGLzR56nLZB56LGsI8cVlsPQl7VAotqV8vfvDmh/kq9HARII7eA="/>
+    <contextParameter comment="" name="SP_Port" prompt="SP_Port?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="6605"/>
+    <contextParameter comment="" name="SP_Login" prompt="SP_Login?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="spuser"/>
+    <contextParameter comment="" name="SP_AdditionalParams" prompt="SP_AdditionalParams?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value=""/>
+    <contextParameter comment="" name="SP_Sid" prompt="SP_Sid?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="nciportp"/>
+    <contextParameter comment="" name="SP_Server" prompt="SP_Server?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="nciportp.cit.nih.gov"/>
+    <contextParameter comment="" name="SP_Schema" prompt="SP_Schema?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_String" value="SPUSER"/>
+    <contextParameter comment="" name="SP_Password" prompt="SP_Password?" promptNeeded="false" repositoryContextId="_uMo50GnbEeCgi_hgB_djNQ" type="id_Password" value="enc:system.encryption.key.v1:ZoTmJg3qK4BQnj8dZQu6/ICkSe0cHamPzBuh/KB2EYziRVOA2g4URc8="/>
+    <contextParameter comment="" name="dccps_Password" prompt="dccps_Password?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_Password" value="enc:system.encryption.key.v1:GN4i42CX1EZc1sDjcWIYqF7B8e30DzhXUXzz4/0Mgiy+f7LChm5wIxI="/>
+    <contextParameter comment="" name="dccps_Port" prompt="dccps_Port?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="1702"/>
+    <contextParameter comment="" name="dccps_Schema" prompt="dccps_Schema?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="DCCPSUSER"/>
+    <contextParameter comment="" name="dccps_AdditionalParams" prompt="dccps_AdditionalParams?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value=""/>
+    <contextParameter comment="" name="dccps_Sid" prompt="dccps_Sid?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="dccpsprd"/>
+    <contextParameter comment="" name="dccps_Login" prompt="dccps_Login?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="dccpsuser"/>
+    <contextParameter comment="" name="dccps_Server" prompt="dccps_Server?" promptNeeded="false" repositoryContextId="_Y7Rc8Hy-EeCL1tzrfoLxmA" type="id_String" value="whitney.cit.nih.gov"/>
+  </context>
+  <parameters>
+    <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="C:/programs/TIS_PE-All-r53616-V4.1.2/workspace"/>
+    <elementParameter field="DIRECTORY" name="PRODUCT_ROOT_DIR" value="C:/programs/TIS_PE-All-r53616-V4.1.2"/>
+    <elementParameter field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="C:/programs/TIS_PE-All-r53616-V4.1.2/workspace/DCCPS-DW"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="AUTHOR" value="pcapp, pcapp"/>
+    <elementParameter field="TEXT" name="STATUS" value=""/>
+    <elementParameter field="TEXT" name="NAME" value="StaffProfile"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.1"/>
+    <elementParameter field="TEXT" name="PURPOSE" value=""/>
+    <elementParameter field="TEXT" name="DESCRIPTION" value=""/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="32"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:c07V8WmuASVZbQXY9zVimdkRafL+KYfuHOVXNo0t"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/programs/TIS_PE-All-r53616-V4.1.2/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ifgeduW7jxRtyk83ULZay9IjljD2h2y6ONtk16Mb"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value=""/>
+    <routinesParameter id="_GlaUECi4EeCOaYorhWUXlA" name="DataOperation"/>
+    <routinesParameter id="_GkP2cCi4EeCOaYorhWUXlA" name="Mathematical"/>
+    <routinesParameter id="_Gm13cCi4EeCOaYorhWUXlA" name="Numeric"/>
+    <routinesParameter id="_Ge3AICi4EeCOaYorhWUXlA" name="Relational"/>
+    <routinesParameter id="_GpOdECi4EeCOaYorhWUXlA" name="SQLike"/>
+    <routinesParameter id="_GhqcgCi4EeCOaYorhWUXlA" name="StringHandling"/>
+    <routinesParameter id="_GgjCMCi4EeCOaYorhWUXlA" name="TalendDataGenerator"/>
+    <routinesParameter id="_GoA8ICi4EeCOaYorhWUXlA" name="TalendDate"/>
+    <routinesParameter id="_Gi_5QCi4EeCOaYorhWUXlA" name="TalendString"/>
+    <routinesParameter id="_OHaLgBh7Ed2ZiefwcJVRTw" name="CmnDbParam"/>
+    <routinesParameter id="_221gwITSEd2-McSyQM_OFA" name="CmnParam"/>
+    <routinesParameter id="_iG6NUBANEd-dfruWLs_asQ" name="CmnRoutines"/>
+    <routinesParameter id="_TTSIsITSEd2-McSyQM_OFA" name="CmnSeq"/>
+    <routinesParameter id="_qbpJ0ApcEd2zEKxI22R18w" name="DwParam"/>
+    <routinesParameter id="_eDiksApcEd2zEKxI22R18w" name="DwSeq"/>
+    <routinesParameter id="_EvRTYG7eEd2a554SyFypQw" name="DwStringHandling"/>
+    <routinesParameter id="_1kw2kGneEeCgi_hgB_djNQ" name="FileIo"/>
+    <routinesParameter id="_OoyzkLS2Ed2of9HEgDSg-A" name="LogSeq"/>
+    <routinesParameter id="_AS3HIL_rEd2bi9Lmjztv2g" name="MyTest"/>
+    <routinesParameter id="_rL9E8NaKEd2a9tuUgliHNA" name="PmaStringHandling"/>
+    <routinesParameter id="_mHnzMNN7Ed2uUOIGVgGh2w" name="PmaWebParam"/>
+    <routinesParameter id="_yTlEoNN5Ed2uUOIGVgGh2w" name="PmaWebSeq"/>
+    <routinesParameter id="_NQhPUBq2Ed25PIdNGy0Cgg" name="SbirCheckIds"/>
+    <routinesParameter id="_BnZAgBh7Ed2ZiefwcJVRTw" name="SbirDbParam"/>
+    <routinesParameter id="_H-1VoBh5Ed2ZiefwcJVRTw" name="SbirSeq"/>
+    <routinesParameter id="_uB8f0PvJEd-Gh6rVn016Gw" name="TestRoutine"/>
+    <routinesParameter id="_dSv30Bh8Ed2ZiefwcJVRTw" name="VarMap"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="220" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_1"/>
+    <elementParameter field="CHECK" name="START" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0kdOzxa1TylB9ZkkNZdPg1r/dl+9JrOLjYWuGWq6gHXVPIvCOpH2ZYiZpC0zOGcv"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DOMAIN_CODING&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.VALUE, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.RANK, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.CODE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.CODING_TEMPLATE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.DOMAIN_OBJECT_ID, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.DOMAIN_CLASS, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.SELECTED_CODE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING.CODING_CATEGORY_ID&#10;FROM &quot;+context.CMN_Schema+&quot;.DOMAIN_CODING&#13;&#10;WHERE &quot; + context.CMN_Schema+&quot;.DOMAIN_CODING.DOMAIN_CLASS = 'gov.nih.nci.sp.dbi.domain.StaffProfile'&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALUE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODING_TEMPLATE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOMAIN_OBJECT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOMAIN_CLASS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SELECTED_CODE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODING_CATEGORY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="DOMAIN_CODING" name="tOracleInput_1">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="500" name="VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="5" name="RANK" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="32" name="CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODING_TEMPLATE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="DOMAIN_OBJECT_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="50" name="DOMAIN_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="SELECTED_CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODING_CATEGORY_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+    </metadata>
+  </node>
+  <node binaryData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224" stringData="">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_1LycgJLIEeCY-JRRY1S8Mg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" label="STAFF_PROFILE_FT" name="spf">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="50" name="LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="PREFERRED_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="ORGANIZATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="EMAIL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="PHONE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="APP_USER_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="STAFF_PROFILE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="SELECTED_CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="300" name="RESEARCH_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="1" name="PUBLIC_VIEWABLE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_Character"/>
+      <column comment="" key="false" length="1" name="NEW_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_Character"/>
+      <column comment="" key="false" length="5" name="RANK" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Numeric.sequence(&quot;s1&quot;,1,1) " name="seq" type="id_Long"/>
+      </varTables>
+      <outputTables name="spf" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Var.seq " name="ID" type="id_Long"/>
+        <mapperTableEntries expression="row3.LAST_NAME " name="LAST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.FIRST_NAME " name="FIRST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.NICK_NAME " name="PREFERRED_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row7.ABBREVIATION " name="ORGANIZATION" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row4.EMPL_TITLE " name="EMPLOYMENT_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row6.CODE " name="EMPLOYMENT_STATUS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row5.EMAIL " name="EMAIL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row5.PHONE " name="PHONE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.ID " name="APP_USER_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row2.ID " name="STAFF_PROFILE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row9.ID " name="SELECTED_CODE_DM_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row8.ID " name="CODE_DM_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row1.CODE_ID " name="CODE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row10.RESEARCH_AREA " name="RESEARCH_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.PUBLIC_VIEWABLE_IND " name="PUBLIC_VIEWABLE_IND" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row2.NEW_IND " name="NEW_IND" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.RANK " name="RANK" nullable="true" type="id_Integer"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ID" type="id_Long"/>
+        <mapperTableEntries name="VALUE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RANK" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="CODE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="CODING_TEMPLATE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="DOMAIN_OBJECT_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="DOMAIN_CLASS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SELECTED_CODE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="CODING_CATEGORY_ID" nullable="true" type="id_Long"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.DOMAIN_OBJECT_ID " name="ID" type="id_Long"/>
+        <mapperTableEntries name="HOME_CITY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="HOME_STATE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="HOME_COUNTRY_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="WORK_HISTORY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CANCER_TOUCH" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LEISURE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RESPONSIBILITY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="HOME_TOWN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ONE_WORD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PHOTO_PATH" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PERSONAL_URL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="CONTACT_ID" type="id_Long"/>
+        <mapperTableEntries name="EXPERTISE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PHOTO" nullable="true" type="id_Object"/>
+        <mapperTableEntries name="TAGLINE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PUBLIC_VIEWABLE_IND" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="RESEARCH_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NEW_IND" nullable="true" type="id_Character"/>
+      </inputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row10" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="" name="ID" type="id_Long"/>
+        <mapperTableEntries expression="" name="RESEARCH_AREA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ID " name="STAFF_PROFILE_ID" nullable="true" type="id_Long"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.CONTACT_ID " name="ID" type="id_Long"/>
+        <mapperTableEntries name="LAST_NAME" type="id_String"/>
+        <mapperTableEntries name="FIRST_NAME" type="id_String"/>
+        <mapperTableEntries name="MIDDLE_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NICK_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PREFIX_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="SUFFIX_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="INSTITUTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRIVACY_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RANK" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="TYPE_ID" type="id_Long"/>
+        <mapperTableEntries name="MAIDEN_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="URL" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" activateExpressionFilter="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row4" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ID" type="id_Long"/>
+        <mapperTableEntries expression="" name="EMPL_STATUS_ID" type="id_Long"/>
+        <mapperTableEntries expression="row3.ID " name="CONTACT_ID" type="id_Long"/>
+        <mapperTableEntries expression="" name="ORGANIZATION_ID" type="id_Long"/>
+        <mapperTableEntries expression="" name="ADDRESS_ID" type="id_Long"/>
+        <mapperTableEntries name="EMPL_TITLE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EMPLOYEE_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EMPL_START_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="EMPL_END_DATE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="ORG_RANK" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="USER_RANK" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="ADDRESS_RANK" nullable="true" type="id_Integer"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row5" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.ADDRESS_ID " name="ID" type="id_Long"/>
+        <mapperTableEntries name="ADDRESS_LINE_1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ADDRESS_LINE_2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ADDRESS_LINE_3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CITY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ADDRESS_TYPE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="MAIL_STOP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="STATE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="POSTAL_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="COUNTY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="COUNTRY_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="PHONE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="FAX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EMAIL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DUNS_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="1" name="RANK" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="ORGANIZATION_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="" name="CONTACT_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="CELL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ROOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRIVATE_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BUILDING" nullable="true" type="id_String"/>
+        <mapperTableEntries name="P_O_BOX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PHONE_2" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row6" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.EMPL_STATUS_ID " name="ID" type="id_Long"/>
+        <mapperTableEntries name="APPLICATION_ID" type="id_Long"/>
+        <mapperTableEntries name="CODE" type="id_String"/>
+        <mapperTableEntries name="NAME" type="id_String"/>
+        <mapperTableEntries name="DESCRIPTION" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TYPE" type="id_String"/>
+        <mapperTableEntries name="RANK" type="id_Integer"/>
+        <mapperTableEntries name="ACTIVE_IND" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ORGANIZATION_ID" nullable="true" type="id_Long"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" innerJoin="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row7" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.ORGANIZATION_ID" name="ID" type="id_Long"/>
+        <mapperTableEntries expression="" name="NAME" type="id_String"/>
+        <mapperTableEntries name="ABBREVIATION" type="id_String"/>
+        <mapperTableEntries name="IC_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TYPE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="URL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EIN_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="RANK" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="ORG_LEVEL" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="PARENT_ORG_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="REGION" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LOGO" nullable="true" type="id_Object"/>
+        <mapperTableEntries name="SCHOOL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DEPARTMENT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="COMPRESSED_NAME" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row8" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ID" type="id_Long"/>
+        <mapperTableEntries name="CODE" type="id_String"/>
+        <mapperTableEntries name="CODE_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CODE_ID" name="CODE_ID" type="id_Long"/>
+        <mapperTableEntries name="SCD_START" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="SCD_END" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="SCD_VERSION" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SCD_ACTIVE" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" minimized="true" name="row9" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ID" type="id_Long"/>
+        <mapperTableEntries name="CATEGORY_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SELECTED_CODE_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARENT_CODE_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CODING_TEMPLATE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries expression="row1.SELECTED_CODE_ID" name="SELECTED_CODE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="PARENT_CODE_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="CODING_CATEGORY_ID" nullable="true" type="id_Long"/>
+        <mapperTableEntries name="SCD_START" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="SCD_END" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="SCD_ACTIVE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SCD_VERSION" nullable="true" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_uvDqYGnbEeCgi_hgB_djNQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SP_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SP_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.SP_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.SP_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.SP_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.SP_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LZLfvT+SbXSIkHS9O4ZCcoDgrTPeojOhikjqyLqrZUxu3eYugBFACS/NOm5w2Wk="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STAFF_PROFILE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.\&quot;ID\&quot;,  &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.PERSONAL_URL, &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.CONTACT_ID, &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.TAGLINE, &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.PUBLIC_VIEWABLE_IND, &#10;  &quot;+context.SP_Schema+&quot;.STAFF_PROFILE.NEW_IND&#10;FROM &quot;+context.SP_Schema+&quot;.STAFF_PROFILE, &quot;&#13;&#10;      +context.CMN_Schema+&quot;.BASE_DOMAIN &#13;&#10;WHERE &quot; +context.SP_Schema+&quot;.STAFF_PROFILE.\&quot;ID\&quot; =&quot;&#13;&#10;        +context.CMN_Schema+&quot;.BASE_DOMAIN.\&quot;ID\&quot; and &quot;&#13;&#10;        +context.CMN_Schema+&quot;.BASE_DOMAIN.ACTIVE_IND = 1&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.SP_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONAL_URL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TAGLINE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PUBLIC_VIEWABLE_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NEW_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="STAFF_PROFILE" name="tOracleInput_2">
+      <column key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column key="false" length="250" name="PERSONAL_URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="32" name="CONTACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column key="false" length="250" name="TAGLINE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="1" name="PUBLIC_VIEWABLE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_Character"/>
+      <column key="false" length="1" name="NEW_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_Character"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="-8" offsetLabelY="3" posX="288" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_4"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:caotSbzKUBkKwHEqFdUlJWUcKn9RHWZR1b3tAQ78Mk+CBA01qHAQhFL3Fd838Q45"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA - CONTACT"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CONTACT&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.LAST_NAME, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.FIRST_NAME, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.MIDDLE_NAME, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.NICK_NAME, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.PREFIX_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.SUFFIX_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.TITLE, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.INSTITUTE, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.PRIVACY_IND, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.RANK, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.TYPE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.MAIDEN_NAME, &#10;  &quot;+context.CMN_Schema+&quot;.CONTACT.URL&#10;FROM &quot;+context.CMN_Schema+&quot;.CONTACT&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MIDDLE_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NICK_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREFIX_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUFFIX_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSTITUTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIVACY_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TYPE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAIDEN_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="URL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="CONTACT" name="tOracleInput_4">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="50" name="LAST_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="FIRST_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="MIDDLE_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="NICK_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="PREFIX_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="SUFFIX_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="100" name="TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="150" name="INSTITUTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="1" name="PRIVACY_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="5" name="RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal"/>
+      <column comment="" key="false" length="32" name="TYPE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="50" name="MAIDEN_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="150" name="URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_7"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AUkSXLwuPokr2O66xT36Q/v0L3aJzrPDTTXOpCGLPim46FaSkN0E9zeHRTvQ+0oC"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA - ADDRESS"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ADDRESS&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ADDRESS_LINE_1, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ADDRESS_LINE_2, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ADDRESS_LINE_3, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.CITY, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ADDRESS_TYPE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.MAIL_STOP, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.STATE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.POSTAL_CODE, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.COUNTY, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.COUNTRY_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.PHONE, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.FAX, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.EMAIL, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.DUNS_NUMBER, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.RANK, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ORGANIZATION_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.CONTACT_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.CELL, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.ROOM, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.PRIVATE_IND, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.BUILDING, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.P_O_BOX, &#10;  &quot;+context.CMN_Schema+&quot;.ADDRESS.PHONE_2&#10;FROM &quot;+context.CMN_Schema+&quot;.ADDRESS&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_LINE_1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_LINE_2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_LINE_3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CITY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_TYPE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAIL_STOP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STATE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POSTAL_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FAX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DUNS_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CELL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ROOM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIVATE_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUILDING"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="P_O_BOX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE_2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="ADDRESS" name="tOracleInput_7">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="100" name="ADDRESS_LINE_1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="ADDRESS_LINE_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="ADDRESS_LINE_3" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="25" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="ADDRESS_TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="15" name="MAIL_STOP" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="STATE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="15" name="POSTAL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="COUNTRY_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="25" name="PHONE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="25" name="FAX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="80" name="EMAIL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="15" name="DUNS_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="8" name="RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column comment="" key="false" length="32" name="ORGANIZATION_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CONTACT_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="25" name="CELL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="15" name="ROOM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="1" name="PRIVATE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="60" name="BUILDING" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="10" name="P_O_BOX" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="25" name="PHONE_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_5"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:e6r+5ZGCDd8LeVRSSF/psZkEzVlk4wTzYHaOiiilAZiaUp9Ls9XDRKYLd8XKYhgd"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;LOOKUP&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.APPLICATION_ID, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.CODE, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.NAME, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.DESCRIPTION, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.TYPE, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.RANK, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.ACTIVE_IND, &#10;  &quot;+context.CMN_Schema+&quot;.LOOKUP.ORGANIZATION_ID&#10;FROM &quot;+context.CMN_Schema+&quot;.LOOKUP&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="APPLICATION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVE_IND"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="LOOKUP" name="tOracleInput_5">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="APPLICATION_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="15" name="CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="300" name="NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="400" name="DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="15" name="TYPE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="10" name="RANK" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="1" name="ACTIVE_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="ORGANIZATION_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_6"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fgeXmHv6tdTFr8oMezvTxpUce+7o1xMnYtk94P3AOqYthqqjGl0q5btXrOv5z4ZK"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA - ORGANIZATION"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ORGANIZATION&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.NAME, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.ABBREVIATION, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.IC_CODE, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.TYPE_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.URL, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.EIN_NUMBER, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.RANK, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.ORG_LEVEL, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.PARENT_ORG_ID, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.REGION, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.LOGO, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.SCHOOL, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.DEPARTMENT, &#10;  &quot;+context.CMN_Schema+&quot;.ORGANIZATION.COMPRESSED_NAME&#10;FROM &quot;+context.CMN_Schema+&quot;.ORGANIZATION&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ABBREVIATION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IC_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TYPE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="URL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EIN_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORG_LEVEL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARENT_ORG_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REGION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOGO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCHOOL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DEPARTMENT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMPRESSED_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="ORGANIZATION" name="tOracleInput_6">
+      <column key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column key="false" length="150" name="NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="25" name="ABBREVIATION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="5" name="IC_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="32" name="TYPE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column key="false" length="150" name="URL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="15" name="EIN_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="6" name="RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column key="false" length="3" name="ORG_LEVEL" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column key="false" length="32" name="PARENT_ORG_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column key="false" length="60" name="REGION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="4000" name="LOGO" nullable="true" pattern="" precision="0" sourceType="BLOB" type="id_Object"/>
+      <column key="false" length="60" name="SCHOOL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="60" name="DEPARTMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column key="false" length="150" name="COMPRESSED_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kC9EMHyLEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dccps_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dccps_Port"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="context.dccps_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dccps_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:o3Lyc38837snuJqYJA9ylswmAEPiCi1jnYK8W37DvhQy+i8toSK60Gc761th2yIRxL4="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STAFF_PROFILE_FT&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dccps_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="true"/>
+      <elementValue elementRef="DELETE_KEY" value="true"/>
+      <elementValue elementRef="UPDATABLE" value="false"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREFERRED_NAME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGANIZATION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPLOYMENT_TITLE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPLOYMENT_STATUS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="APP_USER_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STAFF_PROFILE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SELECTED_CODE_DM_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_DM_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESEARCH_AREA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PUBLIC_VIEWABLE_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NEW_IND"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RANK"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <metadata connector="FLOW" label="STAFF_PROFILE_FT" name="tOracleOutput_1">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="50" name="LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="PREFERRED_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="ORGANIZATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="EMAIL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="PHONE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="APP_USER_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="STAFF_PROFILE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="SELECTED_CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="300" name="RESEARCH_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="1" name="PUBLIC_VIEWABLE_IND" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_Character"/>
+      <column comment="" key="false" length="1" name="NEW_IND" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_Character"/>
+      <column comment="" key="false" length="5" name="RANK" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+    </metadata>
+    <metadata connector="REJECT" label="STAFF_PROFILE_FT" name="REJECT">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="50" name="LAST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="PREFERRED_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="ORGANIZATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="EMPLOYMENT_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="100" name="EMAIL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="50" name="PHONE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="APP_USER_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="STAFF_PROFILE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="SELECTED_CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_DM_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="300" name="RESEARCH_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="1" name="PUBLIC_VIEWABLE_IND" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_Character"/>
+      <column comment="" key="false" length="1" name="NEW_IND" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_Character"/>
+      <column comment="" key="false" length="5" name="RANK" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_8"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kC9EMHyLEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dccps_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dccps_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dccps_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dccps_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:unD38BXJWwh0j2JUHYnnfMpM7pOQbiwR2jYVrWs424OGdtQGRRqqFWOzUPCRXM/ngXs="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_kC9EMHyLEeCL1tzrfoLxmA - CODE_DM"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CODE_DM&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.\&quot;ID\&quot;, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.CODE, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.CODE_NAME, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.CODE_ID, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.SCD_START, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.SCD_END, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.SCD_VERSION, &#10;  &quot;+context.dccps_Schema+&quot;.CODE_DM.SCD_ACTIVE&#10;FROM &quot;+context.dccps_Schema+&quot;.CODE_DM&#13;&#10;WHERE &quot; +context.dccps_Schema+&quot;.CODE_DM.SCD_ACTIVE = 1&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dccps_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_START"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_END"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_VERSION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_ACTIVE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="CODE_DM" name="tOracleInput_8">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="250" name="CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="CODE_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="CODE_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="7" name="SCD_START" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="7" name="SCD_END" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="5" name="SCD_VERSION" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column comment="" key="false" length="1" name="SCD_ACTIVE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_9"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kC9EMHyLEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dccps_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dccps_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.dccps_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dccps_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dccps_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7tF8Ql6FhZcsQC7AnF1fdCkHm/rFhJRkRgr/CXhVy8fZh2qwIX3hMC6w/4yx1C5lgro="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SELECTED_CODE_DM&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.\&quot;ID\&quot;, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.CATEGORY_NAME, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SELECTED_CODE_NAME, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.PARENT_CODE_NAME, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.CODING_TEMPLATE_ID, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SELECTED_CODE_ID, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.PARENT_CODE_ID, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.CODING_CATEGORY_ID, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SCD_START, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SCD_END, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SCD_ACTIVE, &#10;  &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM.SCD_VERSION&#10;FROM &quot;+context.dccps_Schema+&quot;.SELECTED_CODE_DM&#13;&#10;WHERE &quot; +context.dccps_Schema+&quot;.SELECTED_CODE_DM.SCD_ACTIVE = 1&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dccps_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CATEGORY_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SELECTED_CODE_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARENT_CODE_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODING_TEMPLATE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SELECTED_CODE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARENT_CODE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODING_CATEGORY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_START"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_END"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_ACTIVE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SCD_VERSION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="SELECTED_CODE_DM" name="tOracleInput_9">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="250" name="CATEGORY_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="SELECTED_CODE_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="250" name="PARENT_CODE_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="CODING_TEMPLATE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="SELECTED_CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="PARENT_CODE_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CODING_CATEGORY_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long"/>
+      <column comment="" key="false" length="7" name="SCD_START" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="7" name="SCD_END" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="1" name="SCD_ACTIVE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="5" name="SCD_VERSION" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_12"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CMN_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CMN_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.CMN_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CMN_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CMN_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Qz5EL/hUJqTYKPyrcLRiUKHq8Uc90ItRqPNeuqp7nTgx5Splr2N2+otqf481eIyl"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8DokEHyNEeCL1tzrfoLxmA - CON_ORG_ADR"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CON_ORG_ADR&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.\&quot;ID\&quot;, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.EMPL_STATUS_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.CONTACT_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.ORGANIZATION_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.ADDRESS_ID, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.EMPL_TITLE, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.EMPLOYEE_NUMBER, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.EMPL_START_DATE, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.EMPL_END_DATE, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.ORG_RANK, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.USER_RANK, &#10;  &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR.ADDRESS_RANK&#10;FROM &quot;+context.CMN_Schema+&quot;.CON_ORG_ADR&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CMN_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPL_STATUS_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPL_TITLE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPLOYEE_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPL_START_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPL_END_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ORG_RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USER_RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_RANK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="CON_ORG_ADR" name="tOracleInput_12">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="EMPL_STATUS_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="CONTACT_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="ORGANIZATION_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="32" name="ADDRESS_ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="50" name="EMPL_TITLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="20" name="EMPLOYEE_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="7" name="EMPL_START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="7" name="EMPL_END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="" key="false" length="3" name="ORG_RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column comment="" key="false" length="5" name="USER_RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+      <column comment="" key="false" length="3" name="ADDRESS_RANK" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Integer"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_13"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_uvDqYGnbEeCgi_hgB_djNQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SP_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SP_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.SP_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.SP_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.SP_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.SP_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9ayO8AS+K5Q7BqlqAyvyV/6Kn+hRAF08DkmR4g8X7jyUy9n3mizgCK7XyJNUIx8="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_uvDqYGnbEeCgi_hgB_djNQ - BRP_PROFILE"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;BRP_PROFILE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.SP_Schema+&quot;.BRP_PROFILE.\&quot;ID\&quot;, &#10;  &quot;+context.SP_Schema+&quot;.BRP_PROFILE.RESEARCH_AREA, &#10;  &quot;+context.SP_Schema+&quot;.BRP_PROFILE.STAFF_PROFILE_ID&#13;&#10;FROM &quot;+context.SP_Schema+&quot;.BRP_PROFILE, &quot;&#13;&#10;      +context.CMN_Schema+&quot;.BASE_DOMAIN &#13;&#10;WHERE &quot; +context.SP_Schema+&quot;.BRP_PROFILE.\&quot;ID\&quot; =&quot;&#13;&#10;        +context.CMN_Schema+&quot;.BASE_DOMAIN.\&quot;ID\&quot; and &quot;&#13;&#10;        +context.CMN_Schema+&quot;.BASE_DOMAIN.ACTIVE_IND = 1&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.SP_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RESEARCH_AREA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STAFF_PROFILE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" label="BRP_PROFILE" name="tOracleInput_13">
+      <column comment="" key="true" length="32" name="ID" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+      <column comment="" key="false" length="300" name="RESEARCH_AREA" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String"/>
+      <column comment="" key="false" length="32" name="STAFF_PROFILE_ID" nullable="true" pattern="" precision="0" sourceType="DEC" type="id_Long"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="VALUE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODING_TEMPLATE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DOMAIN_OBJECT_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DOMAIN_CLASS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SELECTED_CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODING_CATEGORY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="spf" lineStyle="0" metaname="spf" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tOracleOutput_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PREFERRED_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORGANIZATION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPLOYMENT_TITLE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPLOYMENT_STATUS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PHONE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="APP_USER_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STAFF_PROFILE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SELECTED_CODE_DM_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE_DM_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RESEARCH_AREA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PUBLIC_VIEWABLE_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NEW_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="spf"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="HOME_CITY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="HOME_STATE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="HOME_COUNTRY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WORK_HISTORY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CANCER_TOUCH"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LEISURE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RESPONSIBILITY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="HOME_TOWN"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ONE_WORD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PHOTO_PATH"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PERSONAL_URL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EXPERTISE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PHOTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TAGLINE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PUBLIC_VIEWABLE_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RESEARCH_AREA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NEW_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tOracleInput_4" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_4" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MIDDLE_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NICK_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PREFIX_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SUFFIX_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TITLE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="INSTITUTE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRIVACY_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TYPE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MAIDEN_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="URL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tOracleInput_7" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_7" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_LINE_1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_LINE_2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_LINE_3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CITY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_TYPE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MAIL_STOP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STATE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="POSTAL_CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COUNTY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COUNTRY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PHONE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FAX"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DUNS_NUMBER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CELL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ROOM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="8" metaname="tOracleInput_5" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_5" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="APPLICATION_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DESCRIPTION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TYPE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ACTIVE_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tOracleInput_6" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_6" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ABBREVIATION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IC_CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TYPE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="URL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EIN_NUMBER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ACTIVE_IND"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORG_LEVEL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PARENT_ORG_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row8" lineStyle="8" metaname="tOracleInput_8" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_8" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_START"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_END"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_VERSION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_ACTIVE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="8" metaname="tOracleInput_9" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_9" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CATEGORY_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SELECTED_CODE_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PARENT_CODE_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODING_TEMPLATE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SELECTED_CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PARENT_CODE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODING_CATEGORY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_START"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_END"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_ACTIVE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCD_VERSION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="8" metaname="tOracleInput_12" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_12" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPL_STATUS_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CONTACT_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORGANIZATION_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPL_TITLE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPLOYEE_NUMBER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPL_START_DATE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EMPL_END_DATE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ORG_RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="USER_RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ADDRESS_RANK"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="8" metaname="tOracleInput_13" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_13" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RESEARCH_AREA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STAFF_PROFILE_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS"/>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Clean and Populate the Fact Table"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a3e568e7-823a-456b-b780-6b59be93c336"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ec4G6rkczKO6JCqoeUgOhJxO9EDKxgq/j3P4y13+w9JQQj0KhHhK+mtAvs2Y40m2BP6M2o6BRrZT&#13;
+fh50NeyiKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_646a70e4-1e18-4b68-8720-67a4a227bb4e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sNI0anQL5jLPur3iPDAib1m9PpocmKzilh1z5okp1zwFCDi9r9Jrfw8Gr062siIEuGGIviCMd/jM&#13;
+ktJMyNvhHg==</DigestValue></Reference></SignedInfo><SignatureValue>Re2S2rktproX0/3XUjeKcUsXlS9a/VRJp/5IFIO/I3keMDlGSN72x+pGVUUYa/QU8cQucfpJmAUY&#13;
+vPGOIB9skWwJCFCT9vFmv2FQFNtcxbTB8tk3JU7UQIPE2LuZeru+96vw5ZBivu599P/SpJL9ybe7&#13;
+3If+seZdpUEW/ayC7GcaL+UyvVIlySfmVBiF6/uahUPgRmQup6QzY94NO+A8goZGyK/ElIZPGve9&#13;
+ohJq+t94LH+DqIOhZvUTIcXGkQKUuP7EJIlVMUC5ptXes0h7qKKLJvsi/c4X461YRhYDROalFny1&#13;
+9UM02rLSVjqPUHSoWfeWOxbuq23VV4dUKQ1USg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_646a70e4-1e18-4b68-8720-67a4a227bb4e" Target="#_a3e568e7-823a-456b-b780-6b59be93c336"><Timestamp>2023-10-19 03:45:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

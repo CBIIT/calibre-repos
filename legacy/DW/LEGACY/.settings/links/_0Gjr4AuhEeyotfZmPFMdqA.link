@@ -1,0 +1,29 @@
+{
+  "itemId" : "_0Gjr4AuhEeyotfZmPFMdqA",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_W0cnQAuiEeyotfZmPFMdqA",
+    "parameterList" : [ {
+      "id" : "_QaAJMYvqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Schema"
+    }, {
+      "id" : "_QaAJMovqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Port"
+    }, {
+      "id" : "_QaAJM4vqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Database"
+    }, {
+      "id" : "_QaAJNIvqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Login"
+    }, {
+      "id" : "_QaAJNYvqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_AdditionalParams"
+    }, {
+      "id" : "_QaAJNovqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Password"
+    }, {
+      "id" : "_QaAJN4vqEe-do5-PSQfwhQ",
+      "name" : "cmnuser_Server"
+    } ]
+  } ]
+}

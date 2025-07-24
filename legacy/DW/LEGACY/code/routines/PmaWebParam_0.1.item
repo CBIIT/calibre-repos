@@ -1,0 +1,252 @@
+// template routine Java
+package routines;
+
+import java.sql.SQLException;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class PmaWebParam {
+
+	private static String host;
+	private static String port;
+	private static String sid;
+	private static String user;
+	private static String password;
+	private static String recUser;
+	private static java.sql.Connection connection = null;
+	
+	
+   
+    public static java.sql.Connection getConnection() {
+    	try{
+	    	if(null == connection){
+	    		java.lang.Class.forName("oracle.jdbc.driver.OracleDriver");
+	    		//String url = "jdbc:oracle:thin:@" + PmaWebParam.getHost() + ":" + PmaWebParam.getPort() + ":" + PmaWebParam.getSid();
+	    		//jdbc:oracle:thin:@//app1-cm1.nci.nih.gov:1610/a1d3hd9.nci.nih.gov
+	    		
+	    		//String url = "jdbc:oracle:thin:@" + PmaWebParam.getHost() + ":" + PmaWebParam.getPort() + ":MOOCH920" ;
+	    		String url = "jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = nci-oraclecm-dev.nci.nih.gov)(PORT = 1610))(CONNECT_DATA = (SERVICE_NAME = DCCPSD.NCI.NIH.GOV))) ";
+	    		System.out.println("URL ---"+url);
+	    		String dbUser = PmaWebParam.getUser();
+				String dbPwd= PmaWebParam.getPassword();
+				connection = java.sql.DriverManager.getConnection(url, dbUser, dbPwd);
+	    	}
+		
+    	}catch (SQLException se) {
+    		se.printStackTrace();
+    	}
+    	catch (ClassNotFoundException ce) {
+    		ce.printStackTrace();
+    	}
+    	return connection;
+	}
+
+	public static void setConnection(java.sql.Connection connection) {
+		PmaWebParam.connection = connection;
+	}
+
+	/**
+     * setHost: not return value, set database host.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("silver") input: The host.
+     * 
+     * {example} setHost("silver").
+     */
+    public static void setHost(String aHost) {
+        host = aHost;
+    }
+
+    /**
+     * setPort: not return value, set database port.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("1234") input: The port.
+     * 
+     * {example} setHost("1234").
+     */
+    public static void setPort(String aPort) {
+        port = aPort;
+    }
+    
+    /**
+     * setSid: not return value, set database SID.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("abc") input: The SID.
+     * 
+     * {example} setSid("abc").
+     */
+    public static void setSid(String aSid) {
+        sid = aSid;
+    }
+    
+    /**
+     * setUser: not return value, set database user.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("cmnuser") input: The user.
+     * 
+     * {example} setHost("cmnuser").
+     */
+    public static void setUser(String aUser) {
+        user = aUser;
+    }
+    
+    /**
+     * setPassword: not return value, set database user password.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("******") input: The user password.
+     * 
+     * {example} setHost("******").
+     */
+    public static void setPassword(String aPassword) {
+        password = aPassword;
+    }
+    
+    /**
+     * setRecUser: not return value, set record user.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("xyz") input: The record user.
+     * 
+     * {example} setHost("xyz").
+     */
+    public static void setRecUser(String aRecUser) {
+        recUser = aRecUser;
+    }
+
+    /**
+     * getHost: get database host.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getHost().
+     */
+    public static String getHost() {
+        return(host);
+    }
+    
+    /**
+     * getPort: get database port.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getPort().
+     */
+    public static String getPort() {
+        return(port);
+    }
+    
+    /**
+     * getSid: get database SID.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getSid().
+     */
+    public static String getSid() {
+        return(sid);
+    }
+    
+    /**
+     * getUser: get database user.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getUser().
+     */
+    public static String getUser() {
+        return(user);
+    }
+    
+    /**
+     * getPassword: get database user password.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getPassword().
+     */
+    public static String getPassword() {
+        return(password);
+    }
+    
+    /**
+     * getRecUser: get record user.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * 
+     * {example} getRecUser().
+     */
+    public static String getRecUser() {
+        return(recUser);
+    }
+
+	
+	
+}

@@ -1,0 +1,29 @@
+{
+  "itemId" : "_MMFOgAuvEeyotfZmPFMdqA",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_Mlgj4AvrEeyotfZmPFMdqA",
+    "parameterList" : [ {
+      "id" : "_z3tX8YvqEe-do5-PSQfwhQ",
+      "name" : "whuser_Schema"
+    }, {
+      "id" : "_z3tX8ovqEe-do5-PSQfwhQ",
+      "name" : "whuser_Port"
+    }, {
+      "id" : "_z3tX84vqEe-do5-PSQfwhQ",
+      "name" : "whuser_Database"
+    }, {
+      "id" : "_z3tX9IvqEe-do5-PSQfwhQ",
+      "name" : "whuser_Login"
+    }, {
+      "id" : "_z3tX9YvqEe-do5-PSQfwhQ",
+      "name" : "whuser_AdditionalParams"
+    }, {
+      "id" : "_z3tX9ovqEe-do5-PSQfwhQ",
+      "name" : "whuser_Password"
+    }, {
+      "id" : "_z3tX94vqEe-do5-PSQfwhQ",
+      "name" : "whuser_Server"
+    } ]
+  } ]
+}

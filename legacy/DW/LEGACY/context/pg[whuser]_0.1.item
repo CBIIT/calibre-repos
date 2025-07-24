@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_z3tX8IvqEe-do5-PSQfwhQ" confirmationNeeded="false" name="Development">
+    <contextParameter xmi:id="_z3tX8YvqEe-do5-PSQfwhQ" comment="" name="whuser_Schema" prompt="whuser_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="warehouse"/>
+    <contextParameter xmi:id="_z3tX8ovqEe-do5-PSQfwhQ" comment="" name="whuser_Port" prompt="whuser_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_z3tX84vqEe-do5-PSQfwhQ" comment="" name="whuser_Database" prompt="whuser_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="warehouse"/>
+    <contextParameter xmi:id="_z3tX9IvqEe-do5-PSQfwhQ" comment="" name="whuser_Login" prompt="whuser_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="whuser"/>
+    <contextParameter xmi:id="_z3tX9YvqEe-do5-PSQfwhQ" comment="" name="whuser_AdditionalParams" prompt="whuser_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_z3tX9ovqEe-do5-PSQfwhQ" comment="" name="whuser_Password" prompt="whuser_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:CcY0SWP/h+FsAhT9iV2mflFPC8D/LpdyVLFS7xi/HACv1fIJWDemR7omMzU="/>
+    <contextParameter xmi:id="_z3tX94vqEe-do5-PSQfwhQ" comment="" name="whuser_Server" prompt="whuser_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ncidvdbav03.cit.nih.gov"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ciRikAvrEeyotfZmPFMdqA" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_ciRikQvrEeyotfZmPFMdqA" comment="" name="whuser_Schema" prompt="whuser_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="warehouse"/>
+    <contextParameter xmi:id="_ciRikgvrEeyotfZmPFMdqA" comment="" name="whuser_Port" prompt="whuser_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_ciRikwvrEeyotfZmPFMdqA" comment="" name="whuser_Database" prompt="whuser_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="warehouse"/>
+    <contextParameter xmi:id="_ciRilAvrEeyotfZmPFMdqA" comment="" name="whuser_Login" prompt="whuser_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="whuser"/>
+    <contextParameter xmi:id="_ciRilQvrEeyotfZmPFMdqA" comment="" name="whuser_AdditionalParams" prompt="whuser_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_ciRilgvrEeyotfZmPFMdqA" comment="" name="whuser_Password" prompt="whuser_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:A6b03T9QM0Q5oaw5t59asjGU/+fPK8wrGku6KFf/358w5jDBEizeALM+gRU="/>
+    <contextParameter xmi:id="_ciRilwvrEeyotfZmPFMdqA" comment="" name="whuser_Server" prompt="whuser_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ncipddbav02.cit.nih.gov"/>
+  </talendfile:ContextType>
+</xmi:XMI>
